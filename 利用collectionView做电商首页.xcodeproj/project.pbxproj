@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11CFEAC320176A41005F7D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAC220176A41005F7D66 /* AppDelegate.m */; };
+		11CFEAC920176A41005F7D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEAC720176A41005F7D66 /* Main.storyboard */; };
+		11CFEACB20176A41005F7D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEACA20176A41005F7D66 /* Assets.xcassets */; };
+		11CFEACE20176A41005F7D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEACC20176A41005F7D66 /* LaunchScreen.storyboard */; };
+		11CFEAD120176A41005F7D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAD020176A41005F7D66 /* main.m */; };
+		11CFEAE020176B90005F7D66 /* HMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEADF20176B90005F7D66 /* HMHomeController.m */; };
+		11CFEAE520176C47005F7D66 /* CountDownShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEAE220176C47005F7D66 /* CountDownShop.plist */; };
+		11CFEAE620176C47005F7D66 /* GoodsGrid.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEAE320176C47005F7D66 /* GoodsGrid.plist */; };
+		11CFEAE720176C47005F7D66 /* HomeHighGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11CFEAE420176C47005F7D66 /* HomeHighGoods.plist */; };
+		11CFEAEA20176E82005F7D66 /* HMGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAE920176E82005F7D66 /* HMGridItem.m */; };
+		11CFEAEF201771DC005F7D66 /* HMRecommendItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAED201771DC005F7D66 /* HMRecommendItem.m */; };
+		11CFEAF22017794C005F7D66 /* HMGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAF12017794C005F7D66 /* HMGridCell.m */; };
+		11CFEAF62018C2CC005F7D66 /* HMWelfareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAF52018C2CC005F7D66 /* HMWelfareCell.m */; };
+		11CFEAFA2018C393005F7D66 /* HMWelfareLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAF92018C393005F7D66 /* HMWelfareLayout.m */; };
+		11CFEAFE201A15D5005F7D66 /* HMCountDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEAFD201A15D5005F7D66 /* HMCountDownCell.m */; };
+		11CFEB01201A17E8005F7D66 /* HMCountDownItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEB00201A17E8005F7D66 /* HMCountDownItemCell.m */; };
+		11CFEB04201C3EBD005F7D66 /* HMImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEB03201C3EBD005F7D66 /* HMImageCell.m */; };
+		11CFEB07201C4EB6005F7D66 /* HMYoulikeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11CFEB06201C4EB6005F7D66 /* HMYoulikeCell.m */; };
+		15B4ED870D42AD976586A79E /* libPods-利用collectionView做电商首页.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5D3F366DBAA91280C87053 /* libPods-利用collectionView做电商首页.a */; };
+		ACEA0D2E201AF75600D9B40E /* HMRecommandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEA0D2D201AF75600D9B40E /* HMRecommandCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06594A4F7226F28701FFB469 /* Pods-利用collectionView做电商首页.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-利用collectionView做电商首页.debug.xcconfig"; path = "Pods/Target Support Files/Pods-利用collectionView做电商首页/Pods-利用collectionView做电商首页.debug.xcconfig"; sourceTree = "<group>"; };
+		11CFEABE20176A41005F7D66 /* 利用collectionView做电商首页.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "利用collectionView做电商首页.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CFEAC120176A41005F7D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11CFEAC220176A41005F7D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11CFEAC820176A41005F7D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11CFEACA20176A41005F7D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11CFEACD20176A41005F7D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11CFEACF20176A41005F7D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CFEAD020176A41005F7D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11CFEADE20176B90005F7D66 /* HMHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMHomeController.h; sourceTree = "<group>"; };
+		11CFEADF20176B90005F7D66 /* HMHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMHomeController.m; sourceTree = "<group>"; };
+		11CFEAE220176C47005F7D66 /* CountDownShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountDownShop.plist; sourceTree = "<group>"; };
+		11CFEAE320176C47005F7D66 /* GoodsGrid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsGrid.plist; sourceTree = "<group>"; };
+		11CFEAE420176C47005F7D66 /* HomeHighGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeHighGoods.plist; sourceTree = "<group>"; };
+		11CFEAE820176E82005F7D66 /* HMGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMGridItem.h; sourceTree = "<group>"; };
+		11CFEAE920176E82005F7D66 /* HMGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMGridItem.m; sourceTree = "<group>"; };
+		11CFEAEC20176E95005F7D66 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		11CFEAED201771DC005F7D66 /* HMRecommendItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRecommendItem.m; sourceTree = "<group>"; };
+		11CFEAEE201771DC005F7D66 /* HMRecommendItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRecommendItem.h; sourceTree = "<group>"; };
+		11CFEAF02017794C005F7D66 /* HMGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMGridCell.h; sourceTree = "<group>"; };
+		11CFEAF12017794C005F7D66 /* HMGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMGridCell.m; sourceTree = "<group>"; };
+		11CFEAF42018C2CC005F7D66 /* HMWelfareCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMWelfareCell.h; sourceTree = "<group>"; };
+		11CFEAF52018C2CC005F7D66 /* HMWelfareCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMWelfareCell.m; sourceTree = "<group>"; };
+		11CFEAF82018C393005F7D66 /* HMWelfareLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMWelfareLayout.h; sourceTree = "<group>"; };
+		11CFEAF92018C393005F7D66 /* HMWelfareLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMWelfareLayout.m; sourceTree = "<group>"; };
+		11CFEAFB2018CAB4005F7D66 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		11CFEAFC201A15D5005F7D66 /* HMCountDownCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMCountDownCell.h; sourceTree = "<group>"; };
+		11CFEAFD201A15D5005F7D66 /* HMCountDownCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMCountDownCell.m; sourceTree = "<group>"; };
+		11CFEAFF201A17E8005F7D66 /* HMCountDownItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMCountDownItemCell.h; sourceTree = "<group>"; };
+		11CFEB00201A17E8005F7D66 /* HMCountDownItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMCountDownItemCell.m; sourceTree = "<group>"; };
+		11CFEB02201C3EBD005F7D66 /* HMImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMImageCell.h; sourceTree = "<group>"; };
+		11CFEB03201C3EBD005F7D66 /* HMImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMImageCell.m; sourceTree = "<group>"; };
+		11CFEB05201C4EB6005F7D66 /* HMYoulikeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMYoulikeCell.h; sourceTree = "<group>"; };
+		11CFEB06201C4EB6005F7D66 /* HMYoulikeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMYoulikeCell.m; sourceTree = "<group>"; };
+		6B39BD7FAA77288FAB925211 /* Pods-利用collectionView做电商首页.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-利用collectionView做电商首页.release.xcconfig"; path = "Pods/Target Support Files/Pods-利用collectionView做电商首页/Pods-利用collectionView做电商首页.release.xcconfig"; sourceTree = "<group>"; };
+		8B5D3F366DBAA91280C87053 /* libPods-利用collectionView做电商首页.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-利用collectionView做电商首页.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEA0D2C201AF75600D9B40E /* HMRecommandCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMRecommandCell.h; sourceTree = "<group>"; };
+		ACEA0D2D201AF75600D9B40E /* HMRecommandCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMRecommandCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11CFEABB20176A41005F7D66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B4ED870D42AD976586A79E /* libPods-利用collectionView做电商首页.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CFEAB520176A41005F7D66 = {
+			isa = PBXGroup;
+			children = (
+				11CFEAC020176A41005F7D66 /* 利用collectionView做电商首页 */,
+				11CFEABF20176A41005F7D66 /* Products */,
+				F190A599C54852FF98E416F0 /* Pods */,
+				81F95D930889417434D63362 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11CFEABF20176A41005F7D66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEABE20176A41005F7D66 /* 利用collectionView做电商首页.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11CFEAC020176A41005F7D66 /* 利用collectionView做电商首页 */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAD920176A7F005F7D66 /* classes */,
+				11CFEAD820176A60005F7D66 /* supportFile */,
+			);
+			path = "利用collectionView做电商首页";
+			sourceTree = "<group>";
+		};
+		11CFEAD820176A60005F7D66 /* supportFile */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAC120176A41005F7D66 /* AppDelegate.h */,
+				11CFEAC220176A41005F7D66 /* AppDelegate.m */,
+				11CFEAC720176A41005F7D66 /* Main.storyboard */,
+				11CFEACA20176A41005F7D66 /* Assets.xcassets */,
+				11CFEACC20176A41005F7D66 /* LaunchScreen.storyboard */,
+				11CFEACF20176A41005F7D66 /* Info.plist */,
+				11CFEAD020176A41005F7D66 /* main.m */,
+				11CFEAFB2018CAB4005F7D66 /* PrefixHeader.pch */,
+			);
+			name = supportFile;
+			sourceTree = "<group>";
+		};
+		11CFEAD920176A7F005F7D66 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEADA20176B13005F7D66 /* controller */,
+				11CFEADB20176B1E005F7D66 /* view */,
+				11CFEADC20176B23005F7D66 /* model */,
+				11CFEADD20176B2F005F7D66 /* resource */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		11CFEADA20176B13005F7D66 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEADE20176B90005F7D66 /* HMHomeController.h */,
+				11CFEADF20176B90005F7D66 /* HMHomeController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		11CFEADB20176B1E005F7D66 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAF72018C37C005F7D66 /* layout */,
+				11CFEAF320177957005F7D66 /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		11CFEADC20176B23005F7D66 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAE820176E82005F7D66 /* HMGridItem.h */,
+				11CFEAE920176E82005F7D66 /* HMGridItem.m */,
+				11CFEAEE201771DC005F7D66 /* HMRecommendItem.h */,
+				11CFEAED201771DC005F7D66 /* HMRecommendItem.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		11CFEADD20176B2F005F7D66 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAE120176C47005F7D66 /* 首页Plist */,
+				11CFEAEB20176E95005F7D66 /* Macros(宏) */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		11CFEAE120176C47005F7D66 /* 首页Plist */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAE220176C47005F7D66 /* CountDownShop.plist */,
+				11CFEAE320176C47005F7D66 /* GoodsGrid.plist */,
+				11CFEAE420176C47005F7D66 /* HomeHighGoods.plist */,
+			);
+			path = "首页Plist";
+			sourceTree = "<group>";
+		};
+		11CFEAEB20176E95005F7D66 /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAEC20176E95005F7D66 /* Macros.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		11CFEAF320177957005F7D66 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEB02201C3EBD005F7D66 /* HMImageCell.h */,
+				11CFEB03201C3EBD005F7D66 /* HMImageCell.m */,
+				11CFEAF02017794C005F7D66 /* HMGridCell.h */,
+				11CFEAF12017794C005F7D66 /* HMGridCell.m */,
+				11CFEAF42018C2CC005F7D66 /* HMWelfareCell.h */,
+				11CFEAF52018C2CC005F7D66 /* HMWelfareCell.m */,
+				11CFEAFC201A15D5005F7D66 /* HMCountDownCell.h */,
+				11CFEAFD201A15D5005F7D66 /* HMCountDownCell.m */,
+				11CFEAFF201A17E8005F7D66 /* HMCountDownItemCell.h */,
+				11CFEB00201A17E8005F7D66 /* HMCountDownItemCell.m */,
+				ACEA0D2C201AF75600D9B40E /* HMRecommandCell.h */,
+				ACEA0D2D201AF75600D9B40E /* HMRecommandCell.m */,
+				11CFEB05201C4EB6005F7D66 /* HMYoulikeCell.h */,
+				11CFEB06201C4EB6005F7D66 /* HMYoulikeCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		11CFEAF72018C37C005F7D66 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				11CFEAF82018C393005F7D66 /* HMWelfareLayout.h */,
+				11CFEAF92018C393005F7D66 /* HMWelfareLayout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		81F95D930889417434D63362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3F366DBAA91280C87053 /* libPods-利用collectionView做电商首页.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F190A599C54852FF98E416F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06594A4F7226F28701FFB469 /* Pods-利用collectionView做电商首页.debug.xcconfig */,
+				6B39BD7FAA77288FAB925211 /* Pods-利用collectionView做电商首页.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11CFEABD20176A41005F7D66 /* 利用collectionView做电商首页 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CFEAD420176A41005F7D66 /* Build configuration list for PBXNativeTarget "利用collectionView做电商首页" */;
+			buildPhases = (
+				BE1BF8D2842F5449A680062C /* [CP] Check Pods Manifest.lock */,
+				11CFEABA20176A41005F7D66 /* Sources */,
+				11CFEABB20176A41005F7D66 /* Frameworks */,
+				11CFEABC20176A41005F7D66 /* Resources */,
+				85C6290C3A2F1AFC5ECA8A3E /* [CP] Embed Pods Frameworks */,
+				EF665F18D2FA3901D52EBE12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "利用collectionView做电商首页";
+			productName = "利用collectionView做电商首页";
+			productReference = 11CFEABE20176A41005F7D66 /* 利用collectionView做电商首页.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11CFEAB620176A41005F7D66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Temple;
+				TargetAttributes = {
+					11CFEABD20176A41005F7D66 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11CFEAB920176A41005F7D66 /* Build configuration list for PBXProject "利用collectionView做电商首页" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11CFEAB520176A41005F7D66;
+			productRefGroup = 11CFEABF20176A41005F7D66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11CFEABD20176A41005F7D66 /* 利用collectionView做电商首页 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11CFEABC20176A41005F7D66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFEAE520176C47005F7D66 /* CountDownShop.plist in Resources */,
+				11CFEAE620176C47005F7D66 /* GoodsGrid.plist in Resources */,
+				11CFEAE720176C47005F7D66 /* HomeHighGoods.plist in Resources */,
+				11CFEACE20176A41005F7D66 /* LaunchScreen.storyboard in Resources */,
+				11CFEACB20176A41005F7D66 /* Assets.xcassets in Resources */,
+				11CFEAC920176A41005F7D66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85C6290C3A2F1AFC5ECA8A3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-利用collectionView做电商首页/Pods-利用collectionView做电商首页-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE1BF8D2842F5449A680062C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-利用collectionView做电商首页-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF665F18D2FA3901D52EBE12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-利用collectionView做电商首页/Pods-利用collectionView做电商首页-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11CFEABA20176A41005F7D66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFEB07201C4EB6005F7D66 /* HMYoulikeCell.m in Sources */,
+				11CFEB04201C3EBD005F7D66 /* HMImageCell.m in Sources */,
+				11CFEAD120176A41005F7D66 /* main.m in Sources */,
+				11CFEAE020176B90005F7D66 /* HMHomeController.m in Sources */,
+				11CFEAF22017794C005F7D66 /* HMGridCell.m in Sources */,
+				ACEA0D2E201AF75600D9B40E /* HMRecommandCell.m in Sources */,
+				11CFEAF62018C2CC005F7D66 /* HMWelfareCell.m in Sources */,
+				11CFEAC320176A41005F7D66 /* AppDelegate.m in Sources */,
+				11CFEB01201A17E8005F7D66 /* HMCountDownItemCell.m in Sources */,
+				11CFEAFA2018C393005F7D66 /* HMWelfareLayout.m in Sources */,
+				11CFEAEF201771DC005F7D66 /* HMRecommendItem.m in Sources */,
+				11CFEAFE201A15D5005F7D66 /* HMCountDownCell.m in Sources */,
+				11CFEAEA20176E82005F7D66 /* HMGridItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11CFEAC720176A41005F7D66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CFEAC820176A41005F7D66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11CFEACC20176A41005F7D66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CFEACD20176A41005F7D66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11CFEAD220176A41005F7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11CFEAD320176A41005F7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11CFEAD520176A41005F7D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06594A4F7226F28701FFB469 /* Pods-利用collectionView做电商首页.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "利用collectionView做电商首页/PrefixHeader.pch";
+				INFOPLIST_FILE = "利用collectionView做电商首页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangmin.work.--collectionView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11CFEAD620176A41005F7D66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B39BD7FAA77288FAB925211 /* Pods-利用collectionView做电商首页.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "利用collectionView做电商首页/PrefixHeader.pch";
+				INFOPLIST_FILE = "利用collectionView做电商首页/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangmin.work.--collectionView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11CFEAB920176A41005F7D66 /* Build configuration list for PBXProject "利用collectionView做电商首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFEAD220176A41005F7D66 /* Debug */,
+				11CFEAD320176A41005F7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CFEAD420176A41005F7D66 /* Build configuration list for PBXNativeTarget "利用collectionView做电商首页" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFEAD520176A41005F7D66 /* Debug */,
+				11CFEAD620176A41005F7D66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11CFEAB620176A41005F7D66 /* Project object */;
+}
